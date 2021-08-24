@@ -22,7 +22,7 @@
 <body>
     <nav id="main-nav">
         <div class="container">
-            <img src="img/logo.png" alt="NewsGrid" class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="NewsGrid" class="logo"></a>
             <div class="social">
                 <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
@@ -30,9 +30,9 @@
                 <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
             </div>
             <ul>
-                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -80,7 +80,7 @@
                   </div>
                 </div>
                 <div class="flex-button">
-                    <button id="button-submit" type="submit" class="btn btn-secondary">Submit</button>
+                    <button id="button-submit" type="submit" class="btn btn-secondary" onclick="submitFunction()">Submit</button>
                 </div>
               </form>
             </div>
@@ -100,10 +100,10 @@
             </div>
             <div>
                 <h3>Email Newsletter</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Don't miss our daily newsletter. Subscribe now.</p>
                 <form>
                 <input type="email" placeholder="Enter Email...">
-                <input type="submit" value="Subscribe" class="btn btn-primary">
+                <input id="subscribe" type="submit" value="Subscribe" class="btn btn-primary">
                 </form>
             </div>
             <div>
