@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+
+    <title>NewsGrid | Latest News</title>
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="container">
+            <img src="img/logo.png" alt="NewsGrid" class="logo">
+            <div class="social">
+                <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+            <ul>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+ 
+        <!-- Section A: Contact Form -->
+        <section id="contact-a" class="text-center py-3">
+            <div class="container">
+              <h2 class="section-title">Contact Me</h2>
+              <div class="bottom-line"></div>
+              <p class="lead">Here is how you can reach me</p>
+              <form method="POST">
+                <div class="text-fields">
+                  <input
+                    type="text"
+                    class="text-input name-input"
+                    placeholder="Name"
+                    name="name"
+                  />
+                  <input
+                    type="text"
+                    class="text-input subject-input"
+                    placeholder="Subject"
+                    name="subject"
+                  />
+                  <input
+                    type="email"
+                    class="text-input email-input"
+                    placeholder="Email Address"
+                    name="email"
+                  />
+                  <input
+                    type="text"
+                    class="text-input phone-input"
+                    placeholder="Phone Number"
+                    name="phone"
+                  />
+                  <textarea
+                    class="text-input message-input"
+                    placeholder="Enter Message"
+                    name="message"
+                  ></textarea>
+                  <div class="my-2">
+                    <div data-netlify-recaptcha="true"></div>
+                  </div>
+                </div>
+                <div class="flex-button">
+                    <button id="button-submit" type="submit" class="btn btn-secondary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </section>
+      
+          
+      
+
+
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-2">
+        <div class="container footer-container">
+            <div>
+                <img src="img/logo_light.png" alt="NewsGrid">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt assumenda enim non? Ratione ipsum voluptates fuga eos earum vitae.</p>
+            </div>
+            <div>
+                <h3>Email Newsletter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form>
+                <input type="email" placeholder="Enter Email...">
+                <input type="submit" value="Subscribe" class="btn btn-primary">
+                </form>
+            </div>
+            <div>
+                <h3>Site Links</h3>
+                <ul class="list">
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Join Our Club</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nesciunt!</p>
+                <a href="#" class="btn btn-secondary">Join Now</a>
+            </div>
+            <div>
+                <p>
+                Copyright &copy; 2021, All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
